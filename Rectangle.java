@@ -44,4 +44,17 @@ public class Rectangle {
     return 2 * (this.width + this.height);
   }
   
+  //method:scale
+  public void scale(double w_scale, double h_scale){
+    this.width = this.width * w_scale;
+    this.height = this.height * h_scale;
+  }
+
+  //method:scale
+  public void scale(double w_scale){
+    this.width = this.width * w_scale;
+    this.height = this.height * w_scale;
+  }
+
+
 }
